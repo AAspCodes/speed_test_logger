@@ -21,4 +21,4 @@ jobs:
     - name: Run tests
       run: cargo test --verbose
     - name: Semantic version
-      run: semantic-release
+      run: npx semantic-release
