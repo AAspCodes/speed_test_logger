@@ -11,6 +11,8 @@ env:
 
 jobs:
   get-next-version:
+    - name: Checkout
+      uses: actions/checkout@v3
     uses: semantic-release-action/next-release-version/.github/workflows/next-release-version.yml@v4
 
   build:
